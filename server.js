@@ -63,7 +63,7 @@ const transporter = nodemailer.createTransport({
 
     let info = await transporter.sendMail({
       from: `"Tour Booking" <${process.env.SMTP_USER}>`,
-      to: "urbaniasechalo@gmail.com", // change if you want dynamic
+      to: "journeyofmountains@gmail.com", // change if you want dynamic
       subject: "New Tour Booking Request",
       html: `
         <h3>New Booking Request</h3>
